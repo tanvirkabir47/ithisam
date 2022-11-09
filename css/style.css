@@ -1,0 +1,765 @@
+
+@font-face {
+    font-family: 'tatsam';
+    src: url('../fonts/tatsambengali/Tatsam_Bengali_Bold.otf') format('opentype'), url('../fonts/tatsambengali/Tatsam_Bengali_Book.otf') format('opentype'), url('../fonts/tatsambengali/Tatsam_Bengali_Demi.otf') format('opentype'), url('../fonts/tatsambengali/Tatsam_Bengali_Light.otf') format('opentype'), url('../fonts/tatsambengali/Tatsam_Bengali_Medium.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+/*
+=============================================================================
+         COMMON STYLE START
+==============================================================================
+*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "tatsam", sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    background: #fff;
+}
+img{
+    width: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li a, ul li a:hover, ul li a:focus, a,a:hover,a:focus{
+text-decoration: none;
+}
+.section-padding {
+    padding: 50px 0;
+}
+.container-padding{
+    padding: 0 75px;
+    position: relative;
+}
+
+
+/*
+=============================================================================
+         Scroll Up STYLE START
+==============================================================================
+*/
+
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: #17255A;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 25px;
+    border-radius: 10px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/*
+================================================================================
+   Header style start
+================================================================================
+*/
+
+#top-header{
+    background: #17255A;
+    margin-top: -27px;
+}
+.logo img {
+    width: 100%;
+    cursor: pointer;
+}
+.heading-text p{
+    color: #fff;
+    font-size: 16px;
+    border-left: 2px solid #fff;
+    width: 100%;
+    padding-left: 15px;
+    margin-top: 35px;
+    line-height: 1.3;
+}
+.date{
+    float: right;
+}
+.date p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+}
+.date img {
+    width: 25px;
+    cursor: pointer;
+}
+.aline-right{
+    margin: auto;  
+}
+
+/*
+=============================================================================
+         Nav Bar STYLE START
+==============================================================================
+*/ 
+nav.section-padding{
+    padding: 20px 0;
+}
+nav{
+    background: #FF8E11;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-right: 15px;
+}
+nav ul li a:hover{
+    color: #fff;
+    border-bottom: 3px solid #17255A;
+    padding-bottom: 22px;
+}
+
+/*
+=============================================================================
+         Home Style Start
+==============================================================================
+*/
+.hero-area{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 10px;
+}
+.hero-img img{
+    width: 100%;
+}
+.hero-text h5{
+    color: #17255A;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.hero-text h1{
+    color: #080808;
+    font-size: 30px;
+}
+.hero-text p{
+    color: #080808;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.hero-text h6{
+    color: #656565;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.recent-hero{
+    border: 8px solid #FF8E11;
+    padding: 20px;
+}
+.recent-hero img{
+    width: 100%;
+}
+.recent-hero .button{
+    color: #fff;
+    font-size: 16px;
+    background: #17255A;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+
+/*
+=============================================================================
+                    Books Style Start
+==============================================================================
+*/
+
+.books-heading{
+    display: flex;
+    padding-bottom: 20px;
+}
+.books-heading h2{
+    font-size: 36px;
+    color: #17255A;
+}
+.books-heading .line {
+    margin: auto 0;
+    color: #17255A;
+    width: 58%;
+}
+.books-heading a{
+    color: #656565;
+    font-size: 12px;
+    margin: auto 5px;
+}
+.books-first-section img{
+    margin-bottom: 25px;
+}
+.books-first-section h3{
+    font-size: 20px;
+    color: #080808;
+}
+.books-first-section p{
+    font-size: 13px;
+    color: #656565;
+    margin: 25px auto;
+}
+.inner-books img{
+    padding-bottom: 35px;
+    width: 100%;
+    height: 100%;
+}
+.inner-books h5{
+    font-size: 16px;
+    color: #080808;
+}
+.inner-books p{
+    font-size: 12px;
+    color: #656565;
+    margin-top: 40px;
+}
+.inner-books hr{
+    margin-bottom: 30px;
+}
+.magazin-bg{
+    background: #F5E4DD;
+    height: 65%;
+    margin-top: 20%;
+}
+.magazin{
+        position: relative;
+    top: -39%
+}
+.magazin img{
+    width: 100%;
+}
+.magazin p {
+    padding: 0 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.magazin button{
+    padding: 0 20px;
+    color: #fff;
+    font-size: 16px;
+    background: #17255A;
+    border-radius: 5px;
+    margin-left: 28%;
+}
+
+
+/*
+=============================================================================
+                    Donet Style Start
+==============================================================================
+*/
+
+.donet-section {
+    background: #FFE3BE;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+.donet-img img{
+    width: 100%;
+}
+.donet-text h3{
+    color: #17255A;
+    font-size: 38px;
+    margin-top: 110px;
+}
+.donet-text p{
+    color: #17255A;
+    font-size: 14px;
+    width: 75%;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+.donet-btn button{
+    border: none;
+    background: #FF4444;
+    padding: 5px 24px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin-top: 150px;
+}
+
+
+/*
+=============================================================================
+                    Pothito Style Start
+==============================================================================
+*/
+
+.pothito-heading{
+    display: flex;
+    padding-bottom: 20px;
+}
+.pothito-heading h2{
+    font-size: 36px;
+    color: #17255A;
+}
+.pothito-heading .line {
+    margin: auto 0;
+    color: #17255A;
+    width: 58%;
+}
+.pothito-heading a{
+    color: #656565;
+    font-size: 12px;
+    margin: auto 5px;
+}
+.pothito-image , .pothito-text{
+    margin-bottom: 20px;
+}
+.pothito-text h3{
+    color: #080808;
+    font-size: 20px;
+}
+.pothito-text p{
+    color: #080808;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+.pothito-text h6{
+    color: #656565;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+
+.pothito-heading-right{
+    display: flex;
+    padding-bottom: 20px;
+}
+.pothito-heading-right h2{
+    font-size: 20px;
+    color: #17255A;
+}
+.pothito-heading-right .line {
+    margin: auto 0;
+    color: #17255A;
+    width: 40%;
+}
+.pothito-heading-right a{
+    color: #656565;
+    font-size: 12px;
+    margin: auto 5px;
+}
+.pothito-text-right h5{
+    color: #080808;
+    font-size: 16px;
+}
+.pothito-text-right p{
+    color: #656565;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.advertice img {
+    width: 65%;
+    display: flex;
+    margin: 25px auto;
+}
+
+
+/*
+=============================================================================
+                    Student Style Start
+=============================================================================
+*/
+
+
+.student-heading{
+    display: flex;
+    padding-bottom: 20px;
+}
+.student-heading h3{
+    font-size: 28px;
+    color: #17255A;
+}
+.student-heading .line {
+    margin: auto 0;
+    color: #17255A;
+    width: 30%;
+}
+.student-heading-2{
+    display: flex;
+    padding-bottom: 20px;
+}
+.student-heading-2 h3{
+    font-size: 25px;
+    color: #17255A;
+}
+.student-heading-2 .line {
+    margin: auto 0;
+    color: #17255A;
+    width: 10%;
+}
+.student-heading-3{
+    display: flex;
+    padding-bottom: 20px;
+}
+.student-heading-3 h3{
+    font-size: 25px;
+    color: #17255A;
+}
+.student-heading-3 .line {
+    margin: auto 0;
+    color: #17255A;
+    width: 20%;
+}
+.student-image h4{
+    font-size: 20px;
+    color: #080808;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.student-image p{
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+.student-image h6{
+    font-size: 13px;
+    color: #656565;
+}
+.student-text h4{
+    font-size: 20px;
+    color: #080808;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.student-text p{
+    color: #656565;
+    font-size: 13px;
+    margin: 20px auto;
+}
+.student-section{
+    width: 100%;
+    height: 450px;
+}
+.student-text{
+    height: 100px;
+}
+
+
+/*
+=============================================================================
+                    Golpo Style Start
+=============================================================================
+*/
+
+.golpo-heading{
+    display: flex;
+    padding-bottom: 20px;
+}
+.golpo-heading h3{
+    font-size: 28px;
+    color: #17255A;
+}
+.golpo-heading .line {
+    margin: auto 0;
+    color: #17255A;
+    width: 58%;
+}
+.golpo-heading a{
+    color: #656565;
+    font-size: 12px;
+    margin: auto 5px;
+}
+.inner-golpo h4{
+    color: #080808;
+    font-size: 20px;
+    margin: 25px 15px;
+    cursor: pointer;
+}
+.inner-golpo p{
+    color: #080808;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: auto 15px;
+    line-height: 1.3;
+}
+.inner-golpo h6{
+    font-size: 13px;
+    color: #656565;
+    margin: 20px 15px;
+}
+
+
+/*
+=============================================================================
+                    Nari Style Start
+=============================================================================
+*/
+
+
+.disari-heading{
+    display: flex;
+    padding-bottom: 20px;
+}
+.disari-heading h3{
+    font-size: 28px;
+    color: #17255A;
+}
+.disari-heading .line {
+    margin: auto 0;
+    color: #17255A;
+    width: 75%;
+}
+.disari-heading a{
+    color: #656565;
+    font-size: 12px;
+    margin: auto 5px;
+}
+.inner-disari {
+    margin-top: 50px;
+}
+.disari-image h4{
+    color: #080808;
+    font-size: 30px;
+    margin: 25px auto;
+}
+.disari-image p{
+    color: #080808;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+.disari-image h6{
+    color: #656565;
+    font-size: 13px;
+    margin: 30px 0;
+}
+.inner-disari h4{
+    color: #080808;
+    font-size: 20px;
+    margin: 25px auto;
+    cursor: pointer;
+}
+.inner-disari p{
+    color: #656565;
+    font-size: 13px;
+    margin: 25px auto;
+}
+.narider-pata-heading{
+    display: flex;
+    padding-bottom: 20px;
+}
+.narider-pata-heading h3{
+    font-size: 25px;
+    color: #17255A;
+}
+.narider-pata-heading .line {
+    margin: auto 0;
+    color: #17255A;
+    width: 50%;
+}
+.narider-pata-image h4{
+    color: #080808;
+    font-size: 20px;
+    margin: 25px auto;
+
+}
+.narider-pata-image p{
+    color: #080808;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+.narider-pata-image h6{
+    color: #656565;
+    font-size: 13px;
+    margin: 30px 0;
+}
+.narider-pata-text h4{
+    font-size: 20px;
+    color: #080808;
+    margin: 15px auto;
+    cursor: pointer;
+}
+.narider-pata-text p{
+    font-size: 13px;
+    color: #656565;
+}
+
+
+/*
+=============================================================================
+                    Answer Section Start
+=============================================================================
+*/
+
+
+.answer-image {
+    background: #17255a;
+    margin: 50px 0;
+}
+
+.answer-image img {
+    margin-top: -40px;
+    padding: 0px 35px;
+}
+.answer-image h3 {
+    color: #fff;
+    font-size: 36px;
+    margin: 35px 35px;
+}
+.answer-image p {
+    color: #fff;
+    font-size: 16px;
+    margin: auto 35px;
+    font-family: sans-serif;
+    line-height: 1.3;
+    padding-bottom: 35px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    color: #080808;
+    font-size: 20px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+label::before{
+    content: '+';
+    color: #080808;
+    font-size: 20px;
+    margin-right: 10px;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .accordion-content p{
+    color: #080808;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.3;
+} 
+.accordion .accordion-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .accordion-content{
+    max-height: 200px;
+    padding: 10px 10px 20px;
+}
+.accordion input[type="radio"]:checked + label::before{
+    content: '-';
+}
+ul .accordion{
+    margin: auto 20px;
+}
+
+
+/*
+=============================================================================
+                    Footer Section Start
+=============================================================================
+*/
+
+.footer-top{
+    background: #FCE3DE;
+    padding: 20px 0;
+}
+.footer-text{
+    max-width: 600px;
+    margin: auto;
+}
+.footer-text img{
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+.footer-text h4{
+    font-size: 14px;
+    color: #080808;
+    text-align: center;
+    margin: 15px auto;
+}
+.footer-text p{
+    font-size: 14px;
+    color: #080808;
+    text-align: center;
+    margin: 15px auto;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+.footer-social-icon ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-social-icon ul li {
+    display: inline-block;
+}
+
+.footer-social-icon ul li a {
+    display: block;
+    color: #707070;
+    text-transform: capitalize;
+    padding: 15px 15px;
+    font-size: 16px;
+    font-weight: 350;
+}
+.footer-social-icon ul li a {
+    padding: 12px 10px;
+}
+.footer-social-icon ul li a i {
+    font-size: 30px;
+    color: #17255A;
+}
+.footer-bottom{
+    background: #17255A;
+    margin-bottom: -25px;
+}
+.footer-bottom p{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+/*
+=============================================================================
+                      All Section End
+=============================================================================
+*/

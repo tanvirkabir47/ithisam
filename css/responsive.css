@@ -1,0 +1,348 @@
+/*Medium Layout: 1200*/
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+     .donet-img img{
+     	width: 108%;
+	    margin: 60px auto;
+	    margin-left: -30px;
+     }
+     .donet-text h3{
+	    font-size: 30px;
+	    margin-top: 145px;
+	}
+	.donet-text p{
+	    font-size: 12px;
+	    width: 85%;
+	}
+	.donet-btn button{
+	    padding: 2px 20px;
+	    font-size: 15px;
+	    margin-top: 170px;
+	}
+	.pothito-heading h2{
+	    font-size: 30px;
+	}
+	.pothito-heading .line {
+	    width: 50%;
+	}
+	.pothito-heading-right h2{
+	    font-size: 16px;
+	}
+	.pothito-heading-right .line {
+	    width: 35%;
+	}
+	.student-heading h3{
+	    font-size: 25px;
+	}
+	.student-heading-2 h3{
+	    font-size: 22px;
+	}
+	.student-heading-3 h3{
+	    font-size: 20px;
+	}
+	.inner-disari {
+	    margin: 0;
+	}
+	.disari-heading .line {
+	    width: 65%;
+	}
+	.narider-pata-heading h3{
+	    font-size: 20px;
+	}
+	.narider-pata-image h4{
+	    margin-bottom: 12px;
+	}
+	.narider-pata-image h6{
+	    margin: 0;
+	}
+}
+
+
+/*Tablet Layout: 768px*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.container-padding {
+        padding: 0 10px;
+    }
+	.logo img {
+	    margin-top: -18px;
+	}
+	nav ul li a{
+	    font-size: 11px;
+	    margin: auto;
+	}
+	.date p {
+	    font-size: 12px;
+	}
+	.heading-text p{
+		margin: auto;
+	    font-size: 12px;
+	}
+	.books-heading h2{
+	    font-size: 28px;
+	}
+	.books-first-section h3{
+	    font-size: 15px;
+	}
+	.books-first-section p{
+	    font-size: 10px;
+	}
+	.inner-books img{
+	    padding-bottom: 20px;
+	}
+	.inner-books h5{
+	    font-size: 12px;
+	}
+	.inner-books p{
+	    font-size: 10px;
+	    margin-top: 0;
+	}
+	.inner-books hr{
+	    margin-bottom: 20px;
+	}
+	.magazin-bg{
+	    height: 70%;
+	    margin-top: 15%;
+	}
+	.magazin{
+	    top: -35%
+	}
+	.magazin p {
+	    font-size: 10px;
+	}
+	.magazin button{
+	    padding: 0px 12px;
+	    color: #fff;
+	    font-size: 10px;
+	    margin-left: 22%;
+	}
+	.donet-img img{
+     	width: 110%;
+	    margin: 25px auto;
+	    margin-left: -50px;
+     }
+     .donet-text{
+     	margin-left: -30px;
+     }
+     .donet-text h3{
+	    font-size: 22px;
+	    margin-top: 85px;
+	}
+	.donet-text p{
+	    font-size: 10px;
+	    width: 85%;
+	}
+	.donet-btn button{
+	    padding: 1px 18px;
+	    font-size: 10px;
+	    margin-top: 110px;
+	}
+	.pothito-heading h2{
+	    font-size: 28px;
+	}
+	.pothito-heading .line {
+	    width: 45%;
+	}
+	.pothito-heading-right h2{
+	    font-size: 15px;
+	}
+	.pothito-heading-right .line {
+	    width: 28%;
+	}
+	.pothito-text h3{
+	    font-size: 15px;
+	}
+	.pothito-text p{
+	    font-size: 10px;
+	    margin: auto;
+	}
+	.pothito-text h6{
+	    font-size: 10px;
+	    margin-top: 30px;
+	}
+	.pothito-text-right h5{
+	    font-size: 12px;
+	}
+	.pothito-text-right p{
+	    font-size: 10px;
+	    margin: auto;
+	}
+	.student-heading h3{
+	    font-size: 20px;
+	}
+	.student-heading-2 h3{
+	    font-size: 18px;
+	}
+	.student-heading-3 h3{
+	    font-size: 16px;
+	}
+	.student-image h4{
+	    font-size: 16px;
+	}
+	.student-image p{
+	    font-size: 12px;
+	}
+	.student-image h6{
+	    font-size: 10px;
+	}
+	.student-text h4{
+	    font-size: 15px;
+	}
+	.student-text p{
+	    font-size: 10px;
+	}
+	.golpo-heading h3{
+	    font-size: 25px;
+	}
+	.golpo-heading .line {
+	    width: 55%;
+	}
+	.inner-golpo h4{
+	    margin-bottom: 12px;
+	}
+	.inner-golpo p{
+	    font-size: 13px;
+	}
+	.inner-golpo h6{
+	    font-size: 12px;
+	    margin: 12px 15px;
+	}
+	.inner-disari {
+	    margin: 0;
+	}
+	.disari-image h4{
+	    font-size: 25px;
+	}
+	.disari-heading .line {
+	    width: 65%;
+	}
+	.narider-pata-heading .line {
+	    width: 30%;
+	}
+	.narider-pata-image h4{
+	    margin-bottom: 12px;
+	}
+	.narider-pata-image h6{
+	    margin: 0;
+	}
+	.narider-pata-text h4{
+	    font-size: 15px;
+	    margin: 5px auto;
+	}
+	.narider-pata-text p{
+	    font-size: 12px;
+	    margin: 0;
+	}
+}
+
+
+
+/*Mobile Layout: 320px*/
+@media only screen and (max-width: 767px){
+	.section-padding {
+	    padding: 20px 0;
+	}
+	.container-padding {
+        padding: 0 10px;
+    }
+    .logo{
+    	width: 100%;
+    }
+	.logo img {
+		display: block;
+		margin: auto;
+	    width: 55%;
+	}
+	.heading-text p{
+		text-align: center;
+	    width: 100%;
+	    font-size: 15px;
+	    padding: 0;
+	    margin: 10px 0;
+	    border: none;
+	}
+	.date{
+    	width: 100%;
+    }
+	.date p {
+		text-align: center;
+	    width: 100%;
+	    font-size: 10px;
+	}
+	.date img {
+		display: block;
+		margin: 5px auto;
+		margin-top: -10px;
+	}
+	.hero-text h1{
+	    font-size: 22px;
+	}
+	.hero-text p{
+	    text-align: justify;
+	}
+	.books-heading h2{
+	    font-size: 20px;
+	}
+	.magazin-bg{
+	    height: 60%;
+    	margin-top: 35%;
+	}
+	.magazin{
+	    top: -40%
+	}
+	.donet-img img{
+     	width: 100%;
+	    margin: 0 auto;
+     }
+     .donet-text{
+     	text-align: center;
+     }
+     .donet-text h3{
+	    font-size: 20px;
+	    margin-top: 25px;
+	}
+	.donet-text p{
+	    font-size: 10px;
+	    width: 100%;
+	}
+	.donet-btn{
+		text-align: center;
+	}
+	.donet-btn button{
+	    padding: 1px 15px;
+	    font-size: 10px;
+	    margin-top: 5px;
+	}
+	.pothito-heading h2{
+	    font-size: 28px;
+	}
+	.pothito-heading .line {
+	    width: 50%;
+	}
+	.pothito-text p{
+	    text-align: justify;
+	}
+	.pothito-text h6{
+	    margin: auto;
+	}
+	.golpo-heading h3{
+	    font-size: 20px;
+	}
+	.golpo-heading .line {
+	    width: 20%;
+	}
+	.inner-disari {
+	    margin: 0;
+	}
+	.disari-heading .line {
+	    width: 60%;
+	}
+	.disari-image h4{
+		font-size: 25px;
+	    margin: 20px auto;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	.container-padding {
+        padding: 0 5px;
+    }
+}
